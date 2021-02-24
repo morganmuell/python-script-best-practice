@@ -2,6 +2,8 @@
 
 # A script for getting the smallest prime factor of an integer.
 
+# IT'S NOT WORKING ANYMORE EVEN THOUGH I ONLY DID THE FIRST STEP IAWEHOAI
+
 import sys
 
 def get_smallest_prime_factor(n):
