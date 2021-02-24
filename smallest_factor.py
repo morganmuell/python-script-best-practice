@@ -16,6 +16,8 @@ n = int(sys.argv[1])
 if n < 1:
     sys.exit(sys.argv[0] + ": Expecting a positive integer")
 
+smallest_prime_factor = get_smallest_prime_factor(n)
+
 if smallest_prime_factor is None:
     print(n)
 else:
