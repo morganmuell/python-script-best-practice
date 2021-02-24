@@ -6,10 +6,11 @@
 
 import sys
 
+
 def get_smallest_prime_factor(n):
     for i in range(2, n):
         if (n % i) == 0:
-            smallest_prime_factor = i
+            return i
     return None
 
 if len(sys.argv) != 2:
